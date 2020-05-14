@@ -1,0 +1,72 @@
+* {
+	box-sizing: border-box;
+}
+
+.body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-size: inherit;
+}
+
+/* Create two equal columns that floats next to each other */
+.leftDiv {
+	font-family: Arial, Helvetica, sans-serif;
+	float: left;
+	width: 20%;
+	padding: 10px;
+	height: 100%; /* Should be removed. Only for demonstration */
+	background-color: #69a1ad;
+	color: #FFFFFF;
+}
+
+.rightDiv {
+	font-family: Arial, Helvetica, sans-serif;
+	float: left;
+	width: 80%;
+	padding-left: 3px;
+	height: 100%; /* Should be removed. Only for demonstration */
+	background-color: #FFFFFF;
+}
+
+/* Clear floats after the columns */
+.containerDiv:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+#table-scroll {
+	height: 100%;
+	width: 100%;
+	overflow: auto;
+	margin-top: 0px;
+}
+
+.issue {
+	border-bottom: 1px solid #69a1ad;
+	height: 50px;
+	color: #404040;
+	font-size: 90%;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.table-container1 {
+	width: 100%;
+	height: 100%;
+	float: left;
+}
+
+#table-wrapper {
+	position: relative;
+	border-radius: 2px;
+	border-top: 0px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	background-color: #FFFFFF;
+}
+#table-scroll {
+	height: 100%;
+	overflow: auto;
+	margin-top: 0px;
+}
+#table-wrapper table {
+	width: 100%;
+}

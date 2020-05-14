@@ -1,0 +1,352 @@
+body {
+	margin: 0%;
+	color: #47484a;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for all buttons */
+/*
+.button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+*/
+
+
+
+/*
+button:hover {
+  opacity:1;
+}
+*/
+
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #69a1ad;
+}
+
+/* Float cancel and create buttons and add an equal width */
+.cancelbtn, .createbtn {
+  float: right;
+  width: 20%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: #474e5d;
+  padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 60%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+ 
+/* Close Button */
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #69a1ad;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn {
+	display: block;
+	position: relative;
+	background-color: #33AAFF;
+	/*border-radius: 10px;*/
+	border: none;
+	width: auto;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.btn:hover {
+	background-color: #005566;
+}
+
+.title {
+	color: #000000;
+	text-align: center;
+}
+
+.form {
+	width: 25%;
+	margin-left: 65%;
+	margin-top: 10%;
+}
+
+.loginDiv {
+
+}
+.avatar {
+	width: 45px;
+	height: 45px;
+	border: none;//background-image:
+}
+
+tr {
+	height: 40px;
+}
+
+/***********HomePage**********************************************************/
+
+
+
+/***********Welcome message*********************************************************/
+
+.welcome-message {
+  /*border: 1px solid black;*/
+   font-family: Arial, Helvetica, sans-serif;
+   color: #69a1ad;
+   padding-left:2%;
+}
+
+
+/***********"Assigned to me" table************************************/
+ .table-container1 {
+  width:600px;
+  float: right;
+  padding: 5% 5% 0% 0%;
+}
+
+
+#table-wrapper {
+  position:relative;
+/*  border:1.0px solid black;*/
+  border-radius: 2px;
+  border-top: 0px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: #ffff;
+
+}
+#table-scroll {
+  height:240px;
+  overflow:auto;  
+  margin-top:0px;
+}
+#table-wrapper table {
+  width:100%;
+    
+}
+
+#table-wrapper table thead th .text {
+  position:absolute;
+  top:-22px;
+  left: -1.5px;
+  height:25px;
+  width:100.2%;
+  box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.2);
+/*
+  border-top:1.0px solid black;
+  border-left:1.0px solid black;
+  border-right:1.0px solid black;
+*/
+  border-radius: 2px;
+  text-align: left;
+  padding-left: 0.7%;
+  padding-top: 0.5%;
+  font-size: 90%;
+  color:   #404040;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f1f1f1;
+
+}
+
+.table-container1 tr {
+	padding-bottom: 10px;
+}
+
+.issue {
+	border-bottom: 1px solid #b9b6b6;
+	color: #404040;
+	font-size: 90%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.issue a{
+    color: #404040
+}
+/***********"Assigned to me" table************************************/
+
+ .table-container2 {
+  width:600px;
+  float: left;
+  padding: 5% 0% 0% 5%;
+}
+
+#table-wrapper2 {
+   position:relative;
+/*  border:1.0px solid black;*/
+  border-radius: 2px;
+  border-top: 0px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: #ffff;
+}
+#table-scroll2 {
+  height:240px;
+  overflow:auto;  
+  margin-top:0px;
+}
+#table-wrapper2 table {
+  width:100%;
+    
+}
+#table-wrapper2 table * {
+  color:black;
+  
+}
+#table-wrapper2 table thead th .text {
+   position:absolute;
+  top:-22px;
+  left: -1.5px;
+  height:25px;
+  width:100.2%;
+  box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 2px;
+  text-align: left;
+  padding-left: 0.7%;
+  padding-top: 0.5%;
+  font-size: 92%;
+  color:   #404040;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f1f1f1;
+}
+
+
+/*********************************************************************/
+* {box-sizing: border-box}
+
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+
+ /*Set a style for all buttons */
+.button {
+  background-color: #888;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #69a1ad;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .createbtn {
+ float: center;
+ width: 40%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .createbtn {
+    width: 100%;
+  }
+}

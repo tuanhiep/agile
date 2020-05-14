@@ -1,0 +1,12 @@
+INSERT INTO ase.Sprint(startDate,Project_idProject) VALUES( now(), 1);
+INSERT INTO ase.Sprint(startDate,Project_idProject) VALUES( now(), 1);
+INSERT INTO ase.Sprint(startDate,Project_idProject) VALUES( now(), 1);
+INSERT INTO ase.Sprint(startDate,Project_idProject) VALUES( now(), 1);
+INSERT INTO ase.Sprint(startDate,Project_idProject) VALUES( now(), 1);
+INSERT INTO ase.Sprint(startDate,Project_idProject) VALUES( now(), 2);
+INSERT INTO ase.Sprint(startDate,Project_idProject) VALUES( now(), 3);
+INSERT INTO ase.Sprint(startDate,Project_idProject) VALUES( now(), 4);
+INSERT INTO ase.Sprint(startDate,Project_idProject) VALUES( now(), 5);
+INSERT INTO ase.Sprint(startDate,Project_idProject) VALUES( now(), 3);
+INSERT INTO ase.Sprint(startDate,Project_idProject) VALUES( now(), 4);
+INSERT INTO ase.Sprint(startDate,Project_idProject) VALUES( now(), 5);

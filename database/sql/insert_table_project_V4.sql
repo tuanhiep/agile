@@ -1,0 +1,13 @@
+INSERT INTO ase.Project( projectName, startDate) VALUES ( "ScrumManager", now());
+INSERT INTO ase.Project( projectName, startDate) VALUES ( "Algorithm project", now());
+INSERT INTO ase.Project( projectName, startDate) VALUES ( "Special Research proble", now());
+INSERT INTO ase.Project( projectName, startDate) VALUES ( "PhD project", now());
+INSERT INTO ase.Project( projectName, startDate) VALUES ( "VoIP project", now());
+INSERT INTO ase.Project( projectName, startDate) VALUES ( "RMI project", now());
+INSERT INTO ase.Project( projectName, startDate) VALUES ( "NIO project", now());
+INSERT INTO ase.Project( projectName, startDate) VALUES ( "Spring Website project", now());
+INSERT INTO ase.Project( projectName, startDate) VALUES ( "Datamining project", now());
+INSERT INTO ase.Project( projectName, startDate) VALUES ( "Big Data project", now());
+INSERT INTO ase.Project( projectName, startDate) VALUES ( "Automate project", now());
+INSERT INTO ase.Project( projectName, startDate) VALUES ( "Advanced Software Engineering", now());
+INSERT INTO ase.Project( projectName, startDate) VALUES ( "Applied Machine Learning", now());
